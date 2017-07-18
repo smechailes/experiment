@@ -1,0 +1,522 @@
+CREATE TABLE register_user( id int NOT null AUTO_INCREMENT, PRIMARY KEY(id), firstname varchar(50), middlename varchar(50), lastname varchar(50), email text, username varchar(50) NOT NULL, phone_num text, address text NOT null, password varchar(50), roll_id int DEFAULT '2', status tinyint DEFAULT '0', added_date DATETIME DEFAULT CURRENT_TIMESTAMP, updated_date DATETIME ON UPDATE CURRENT_TIMESTAMP )
+
+INSERT INTO register_user SET
+ firstname = 'kamlesh', 
+middlename = 'kumar ', 
+lastname = 'chaudhary', 
+email = 'chykamlesh7@gmail.com', 
+username = 'kame",
+username = " ", phone_num = '9843707297', 
+address = 'Ratopul', 
+password = SHA1('kamlesh'), 
+roll_id = 1, 
+status =  1;
+
+INSERT INTO register_user SET
+ firstname = 'niraj', 
+middlename = '', 
+lastname = 'manandhar', 
+email = 'nirajmanandhar56@gmail.com', 
+username = " niraj", 
+phone_num = '9841681463', 
+address = 'new road', 
+password = SHA1('manandhar'), 
+roll_id = 1, 
+status = 1;
+
+INSERT INTO register_user SET
+ firstname = 'jhon', 
+middlename = ' ', 
+lastname = 'doe', 
+email = 'jhon@gmail.com', 
+username = " ", phone_num = '8097654', 
+address = 'Newyork', 
+password = SHA1('jhon_doe'), 
+roll_id = 2, 
+status = 1 ;
+
+INSERT INTO register_user SET
+ firstname = 'Aakash', 
+middlename = ' ', 
+lastname = ' gurung', 
+email = 'akugurung143@gmail.com', 
+username = "aaka ", 
+phone_num = '9842xyz', 
+address = 'baneshwor', 
+password = SHA1('akash'), 
+roll_id = 2, 
+status = 0;
+
+INSERT INTO register_user SET
+ firstname = 'chandra', 
+middlename = ' ', 
+lastname = 'samsher', 
+email = 'cs@gmail.com', 
+username = " ", 
+phone_num = '', 
+address = 'tikathali', 
+password = SHA1('CStika'), 
+roll_id = 2, 
+status = 1 ;
+
+INSERT INTO register_user SET
+ firstname = 'Raju', 
+middlename = '', 
+lastname = 'Dhungel', 
+email = 'dhungelraju6@gmail.com', 
+username = " dhungelraju", 
+phone_num = '9801106541', 
+address = 'chabahil', 
+password = SHA1('chabahil'), 
+roll_id = 2, 
+status = 0;
+
+INSERT INTO register_user SET
+ firstname = 'shree', 
+middlename = ' ', 
+lastname = 'ram', 
+email = 'creeram1@gmail.com', 
+username = " ", phone_num = '9806814209/9860656228', 
+address = 'bhaktapur', 
+password = SHA1('creeram'), 
+roll_id = 2, 
+status = 1 ;
+
+
+INSERT INTO register_user SET
+ firstname = 'chandra', 
+middlename = ' ', 
+lastname = 'shekhar', 
+email = 'shekhary672@gmail.com', 
+username = " ", 
+phone_num = '9800810577', 
+address = 'tikathali', 
+password = SHA1('Tika'), 
+roll_id = 1, 
+status = 1;
+
+INSERT INTO register_user SET
+ firstname = 'niroj', 
+middlename = ' ', 
+lastname = 'khadgi', 
+email = 'nirozkhadgilive@gmail.com', 
+username = " niroz1", 
+phone_num = '9818266886', 
+address = 'Newyork', 
+password = SHA1('niroj1'), 
+roll_id = 2, 
+status = 1 ;
+
+INSERT INTO register_user SET
+ firstname = 'mahendra', 
+middlename = 'motors ', 
+lastname = '', 
+email = 'mahendra@gmail.com', 
+username = " ", phone_num = '9800897564', 
+address = 'gurukul', 
+password = SHA1('sethupati'), 
+roll_id = 2, 
+status = 0;
+INSERT INTO register_user SET
+ firstname = 'jhon', 
+middlename = ' ', 
+lastname = 'doe', 
+email = 'jhon@gmail.com', 
+username = " ", phone_num = '8097654', 
+address = 'Newyork', 
+password = SHA1('jhon_doe'), 
+roll_id = 2, 
+status = 1 ;
+
+INSERT INTO register_user SET
+ firstname = 'mahendra', 
+middlename = 'motors ', 
+lastname = '', 
+email = 'mahendra@gmail.com', 
+username = " ", phone_num = '9800897564', 
+address = 'gurukul', 
+password = SHA1('sethupati'), 
+roll_id = 1, 
+status = 1;
+
+INSERT INTO register_user SET
+ firstname = 'jhon', 
+middlename = ' ', 
+lastname = 'doe', 
+email = 'jhon@gmail.com', 
+username = " ", phone_num = '8097654', 
+address = 'Newyork', 
+password = SHA1('jhon_doe'), 
+roll_id = 2, 
+status = 1 ;
+
+INSERT INTO register_user SET
+ firstname = 'mahendra', 
+middlename = 'motors ', 
+lastname = '', 
+email = 'mahendra@gmail.com', 
+username = " ", phone_num = '9800897564', 
+address = 'gurukul', 
+password = SHA1('sethupati'), 
+roll_id = 2, 
+status = 0;
+
+INSERT INTO register_user SET
+ firstname = 'jhon', 
+middlename = ' ', 
+lastname = 'doe', 
+email = 'jhon@gmail.com', 
+username = " ", phone_num = '8097654', 
+address = 'Newyork', 
+password = SHA1('jhon_doe'), 
+roll_id = 2, 
+status = 1 ;
+
+INSERT INTO register_user SET
+ firstname = 'mahendra', 
+middlename = 'motors ', 
+lastname = '', 
+email = 'mahendra@gmail.com', 
+username = " ", phone_num = '9800897564', 
+address = 'gurukul', 
+password = SHA1('sethupati'), 
+roll_id = 2, 
+status = 0;
+INSERT INTO register_user SET
+ firstname = 'jhon', 
+middlename = ' ', 
+lastname = 'doe', 
+email = 'jhon@gmail.com', 
+username = " ", phone_num = '8097654', 
+address = 'Newyork', 
+password = SHA1('jhon_doe'), 
+roll_id = 1, 
+status = 0;
+
+INSERT INTO register_user SET
+ firstname = 'mahendra', 
+middlename = 'motors ', 
+lastname = '', 
+email = 'mahendra@gmail.com', 
+username = " ", phone_num = '9800897564', 
+address = 'gurukul', 
+password = SHA1('sethupati'), 
+roll_id = 1, 
+status = 1;
+
+INSERT INTO register_user SET
+ firstname = 'jhon', 
+middlename = ' ', 
+lastname = 'doe', 
+email = 'jhon@gmail.com', 
+username = " ", phone_num = '8097654', 
+address = 'Newyork', 
+password = SHA1('jhon_doe'), 
+roll_id = 2, 
+status = 1 ;
+
+INSERT INTO register_user SET
+ firstname = 'mahendra', 
+middlename = 'motors ', 
+lastname = '', 
+email = 'mahendra@gmail.com', 
+username = " ", phone_num = '9800897564', 
+address = 'gurukul', 
+password = SHA1('sethupati'), 
+roll_id = 2, 
+status = 0;
+INSERT INTO register_user SET
+ firstname = 'jhon', 
+middlename = ' ', 
+lastname = 'doe', 
+email = 'jhon@gmail.com', 
+username = " ", phone_num = '8097654', 
+address = 'Newyork', 
+password = SHA1('jhon_doe'), 
+roll_id = 1, 
+status = 0 ;
+
+INSERT INTO register_user SET
+ firstname = 'mahendra', 
+middlename = 'motors ', 
+lastname = '', 
+email = 'mahendra@gmail.com', 
+username = " ", phone_num = '9800897564', 
+address = 'gurukul', 
+password = SHA1('sethupati'), 
+roll_id = 2, 
+status = 0;
+INSERT INTO register_user SET
+ firstname = 'jhon', 
+middlename = ' ', 
+lastname = 'doe', 
+email = 'jhon@gmail.com', 
+username = " ", phone_num = '8097654', 
+address = 'Newyork', 
+password = SHA1('jhon_doe'), 
+roll_id = 2, 
+status = 0 ;
+
+INSERT INTO register_user SET
+ firstname = 'mahendra', 
+middlename = 'motors ', 
+lastname = '', 
+email = 'mahendra@gmail.com', 
+username = " ", phone_num = '9800897564', 
+address = 'gurukul', 
+password = SHA1('sethupati'), 
+roll_id = 1, 
+status = 1;
+INSERT INTO register_user SET
+ firstname = 'jhon', 
+middlename = ' ', 
+lastname = 'doe', 
+email = 'jhon@gmail.com', 
+username = " ", phone_num = '8097654', 
+address = 'Newyork', 
+password = SHA1('jhon_doe'), 
+roll_id = 2, 
+status = 1 ;
+
+INSERT INTO register_user SET
+ firstname = 'mahendra', 
+middlename = 'motors ', 
+lastname = '', 
+email = 'mahendra@gmail.com', 
+username = " ", phone_num = '9800897564', 
+address = 'gurukul', 
+password = SHA1('sethupati'), 
+roll_id = 2, 
+status = 0;
+INSERT INTO register_user SET
+ firstname = 'jhon', 
+middlename = ' ', 
+lastname = 'doe', 
+email = 'jhon@gmail.com', 
+username = " ", phone_num = '8097654', 
+address = 'Newyork', 
+password = SHA1('jhon_doe'), 
+roll_id = 2, 
+status = 1 ;
+
+INSERT INTO register_user SET
+ firstname = 'mahendra', 
+middlename = 'motors ', 
+lastname = '', 
+email = 'mahendra@gmail.com', 
+username = " ", phone_num = '9800897564', 
+address = 'gurukul', 
+password = SHA1('sethupati'), 
+roll_id = 2, 
+status = 0;
+INSERT INTO register_user SET
+ firstname = 'jhon', 
+middlename = ' ', 
+lastname = 'doe', 
+email = 'jhon@gmail.com', 
+username = " ", phone_num = '8097654', 
+address = 'Newyork', 
+password = SHA1('jhon_doe'), 
+roll_id = 2, 
+status = 1 ;
+
+INSERT INTO register_user SET
+ firstname = 'mahendra', 
+middlename = 'motors ', 
+lastname = '', 
+email = 'mahendra@gmail.com', 
+username = " ", phone_num = '9800897564', 
+address = 'gurukul', 
+password = SHA1('sethupati'), 
+roll_id = 2, 
+status = 0;
+INSERT INTO register_user SET
+ firstname = 'jhon', 
+middlename = ' ', 
+lastname = 'doe', 
+email = 'jhon@gmail.com', 
+username = " ", phone_num = '8097654', 
+address = 'Newyork', 
+password = SHA1('jhon_doe'), 
+roll_id = 2, 
+status = 1 ;
+
+INSERT INTO register_user SET
+ firstname = 'mahendra', 
+middlename = 'motors ', 
+lastname = '', 
+email = 'mahendra@gmail.com', 
+username = " ", phone_num = '9800897564', 
+address = 'gurukul', 
+password = SHA1('sethupati'), 
+roll_id = 2, 
+status = 0;
+INSERT INTO register_user SET
+ firstname = 'jhon', 
+middlename = ' ', 
+lastname = 'doe', 
+email = 'jhon@gmail.com', 
+username = " ", phone_num = '8097654', 
+address = 'Newyork', 
+password = SHA1('jhon_doe'), 
+roll_id = 2, 
+status = 1 ;
+
+INSERT INTO register_user SET
+ firstname = 'mahendra', 
+middlename = 'motors ', 
+lastname = '', 
+email = 'mahendra@gmail.com', 
+username = " ", phone_num = '9800897564', 
+address = 'gurukul', 
+password = SHA1('sethupati'), 
+roll_id = 2, 
+status = 0;
+INSERT INTO register_user SET
+ firstname = 'jhon', 
+middlename = ' ', 
+lastname = 'doe', 
+email = 'jhon@gmail.com', 
+username = " ", phone_num = '8097654', 
+address = 'Newyork', 
+password = SHA1('jhon_doe'), 
+roll_id = 2, 
+status = 1 ;
+
+INSERT INTO register_user SET
+ firstname = 'mahendra', 
+middlename = 'motors ', 
+lastname = '', 
+email = 'mahendra@gmail.com', 
+username = " ", phone_num = '9800897564', 
+address = 'gurukul', 
+password = SHA1('sethupati'), 
+roll_id = 2, 
+status = 0;
+INSERT INTO register_user SET
+ firstname = 'jhon', 
+middlename = ' ', 
+lastname = 'doe', 
+email = 'jhon@gmail.com', 
+username = " ", phone_num = '8097654', 
+address = 'Newyork', 
+password = SHA1('jhon_doe'), 
+roll_id = 2, 
+status = 1 ;
+
+INSERT INTO register_user SET
+ firstname = 'mahendra', 
+middlename = 'motors ', 
+lastname = '', 
+email = 'mahendra@gmail.com', 
+username = " ", phone_num = '9800897564', 
+address = 'gurukul', 
+password = SHA1('sethupati'), 
+roll_id = 2, 
+status = 0;
+INSERT INTO register_user SET
+ firstname = 'jhon', 
+middlename = ' ', 
+lastname = 'doe', 
+email = 'jhon@gmail.com', 
+username = " ", phone_num = '8097654', 
+address = 'Newyork', 
+password = SHA1('jhon_doe'), 
+roll_id = 2, 
+status = 1 ;
+
+INSERT INTO register_user SET
+ firstname = 'mahendra', 
+middlename = 'motors ', 
+lastname = '', 
+email = 'mahendra@gmail.com', 
+username = " ", phone_num = '9800897564', 
+address = 'gurukul', 
+password = SHA1('sethupati'), 
+roll_id = 2, 
+status = 0;
+INSERT INTO register_user SET
+ firstname = 'jhon', 
+middlename = ' ', 
+lastname = 'doe', 
+email = 'jhon@gmail.com', 
+username = " ", phone_num = '8097654', 
+address = 'Newyork', 
+password = SHA1('jhon_doe'), 
+roll_id = 2, 
+status = 1 ;
+
+INSERT INTO register_user SET
+ firstname = 'mahendra', 
+middlename = 'motors ', 
+lastname = '', 
+email = 'mahendra@gmail.com', 
+username = " ", phone_num = '9800897564', 
+address = 'gurukul', 
+password = SHA1('sethupati'), 
+roll_id = 2, 
+status = 0;
+INSERT INTO register_user SET
+ firstname = 'jhon', 
+middlename = ' ', 
+lastname = 'doe', 
+email = 'jhon@gmail.com', 
+username = " ", phone_num = '8097654', 
+address = 'Newyork', 
+password = SHA1('jhon_doe'), 
+roll_id = 2, 
+status = 1 ;
+
+INSERT INTO register_user SET
+ firstname = 'mahendra', 
+middlename = 'motors ', 
+lastname = '', 
+email = 'mahendra@gmail.com', 
+username = " ", phone_num = '9800897564', 
+address = 'gurukul', 
+password = SHA1('sethupati'), 
+roll_id = 2, 
+status = 0;
+INSERT INTO register_user SET
+ firstname = 'jhon', 
+middlename = ' ', 
+lastname = 'doe', 
+email = 'jhon@gmail.com', 
+username = " ", phone_num = '8097654', 
+address = 'Newyork', 
+password = SHA1('jhon_doe'), 
+roll_id = 2, 
+status = 1 ;
+
+INSERT INTO register_user SET
+ firstname = 'kat', 
+middlename = ' ', 
+lastname = 'richerdson', 
+email = 'kat@gmail.com', 
+username = " ", phone_num = '123456', 
+address = 'abcde', 
+password = SHA1('sethupati'), 
+roll_id = 1, 
+status = 1;
+
+INSERT INTO register_user SET
+ firstname = 'jhon', 
+middlename = ' ', 
+lastname = 'doe', 
+email = 'jhon@gmail.com', 
+username = " ", phone_num = '8097654', 
+address = 'Newyork', 
+password = SHA1('jhon_doe'), 
+roll_id = 2, 
+status = 1 ;
+
+INSERT INTO register_user SET
+ firstname = 'mahendra', 
+middlename = ' ', 
+lastname = 'bahubali', 
+email = 'mahendra.bahubali@gmail.com', 
+username = " ", phone_num = '97654321', 
+address = 'guruduurar', 
+password = SHA1('okhaldunga'), 
+roll_id = 1, 
+status = 0;
