@@ -1,0 +1,130 @@
+CREATE DATABASE admin_6;
+
+CREATE TABLE category (
+	id int AUTO_INCREMENT,
+	PRIMARY KEY('id'),
+	title text NOT NULL,
+	description text,
+	status tinyint DEFAULT 1,
+	added_by int DEFAULT NULL,
+	added_date DATETIME DEFAULT CURRENT_TIMESTAMP,
+	updated_date DATETIME ON UPDATE CURRENT_TIMESTAMP
+);
+
+INSERT INTO category SET
+title = "Home",
+description= "Sofa, furniture etc",
+Status = 0;
+
+
+INSERT INTO category SET
+title = "Furniture and Kitchen",
+description= "dinning tables, ",
+Status = 1;
+
+
+INSERT INTO category SET
+title = "Hardware",
+description= "pipes etc",
+Status = 0;
+
+
+INSERT INTO category SET
+title = "INTEL core processor",
+description= "Computer chips",
+Status = 1;
+
+
+INSERT INTO category SET
+title = "lenovo Computer",
+description= "Notebooks",
+Status = 0;
+
+
+INSERT INTO category SET
+title = "Microsoft OS",
+description= "Operating system",
+Status = 0;
+
+
+INSERT INTO category SET
+title = "UNO",
+description= "clothing/kids wear",
+Status = 1;
+
+
+INSERT INTO category SET
+title = "Vegetables",
+description= "Carrot",
+Status = 0;
+
+
+INSERT INTO category SET
+title = "Smartphones",
+description= "Xiaomi, htc, lenovo",
+Status = 0;
+
+
+INSERT INTO category SET
+title = "Carpets",
+description= "Yeti carpets",
+Status = 1;
+
+
+INSERT INTO category SET
+title = "Airlines",
+description= "Air RNB",
+Status = 1;
+
+
+INSERT INTO category SET
+title = "Wires",
+description= "Copper wire",
+Status = 0;
+
+
+INSERT INTO category SET
+title = "Jwelwry",
+description= "Gold, silver",
+Status = 1;
+
+
+INSERT INTO category SET
+title = "Candy",
+description= "Kitkat, dairymilk",
+Status = 0;
+
+
+INSERT INTO category SET
+title = "Movies",
+description= "Kabi khusi kabi gum",
+Status = 1;
+
+
+INSERT INTO category SET
+title = "Music",
+description= "Hello-adele, ",
+Status = 0;
+
+
+INSERT INTO category SET
+title = "Water",
+description= "Aqua",
+Status = 0;
+
+INSERT INTO category SET
+title = "Chemical",
+description= "Calcium chloride",
+Status = 1;
+
+
+INSERT INTO category SET
+title = "Meat",
+description= "Chicken",
+Status = 1;
+
+
+INSERT INTO category SET
+title = "Dry fruits",
+description= "Almonds",
+Status = 0;
