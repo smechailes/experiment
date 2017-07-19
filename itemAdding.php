@@ -10,6 +10,7 @@
 <h1><center>Items Add</center></h1>
 
 <div class="container">
+<form method="POST" action="">
 <div class="form-group row">
   <label for="example-text-input" class="col-md-2 col-form-label">Item</label>
   <div class="col-md-10">
@@ -19,7 +20,7 @@
 <div class="form-group row">
   <label for="example-search-input" class="col-md-2 col-form-label">Description</label>
   <div class="col-md-10">
-    <input class="form-control" type="search" value="Smartphone" id="example-search-input">
+    <input class="form-control" type="search" name="description" value="Smartphone" id="example-search-input">
   </div>
 </div>
 
@@ -27,6 +28,24 @@
 </form>
 
 <script src= "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</form>
 </div>
+
+<?php 
+print_r($_POST); 
+$item = $_POST['item'];
+$des = $_POST['description'];
+  include 'databaseConnect.php';
+
+  $sql= "INSERT INTO category SET title= '$item', description= '$des'";
+  $query = mysqli_query($conn, $sql) or die(mysqli_error($conn));
+  if($query){
+    echo "Data inserted successfully";
+  }else{
+    echo "Data couldn't be added at this moment because of " .mysqli_error($conn);
+  }
+?>
 </body>
 </html>
+
