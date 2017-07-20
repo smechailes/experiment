@@ -1,0 +1,41 @@
+<?php 
+print_r($_POST); 
+$item = $_POST['item'];
+$des = $_POST['description'];
+  include 'databaseConnect.php';
+
+  $sql= "INSERT INTO category SET title= '$item', description= '$des'";
+  $query = mysqli_query($conn, $sql) or die(mysqli_error($conn));
+  if($query){
+    echo "Data inserted successfully";
+  }else{
+    echo "Data couldn't be added at this moment because of " .mysqli_error($conn);
+  }
+?>
+
+$query = mqsqli_query($conn, $sql); //query bhayo bhayena bhanne kura bascha
+if($query){
+    echo "Data updated successfully";
+  }else{
+    echo "Data couldn't be updated at this moment because of " .mysqli_error($conn);
+  }
+
+delete
+$sql = "DELETE FROM users where id = 6";
+if($sql){
+    echo "Data deleted successfully";
+  }else{
+    echo "Data couldn't be deleted at this moment because of " .mysqli_error($conn);
+  }
+
+$sql = "SELECT * FROM users";
+$query = mysqli_query($conn, $sql); //returns number of rows in table
+if(mysqli_num_rows($query) <= 0){ //compares number of rows with 0
+echo "no data found"; //if zero row
+}else{ //if multiple row
+$data = array(); //creating temporary row
+while ($row=mysqli_fetch_assoc($query)){ //returns one row at a time
+$data[] = $row; //row is added in data
+}
+print_r ($data, true); //data is displayed here
+}

@@ -1,0 +1,47 @@
+CREATE TABLE category (
+id int AUTO_INCREMENT,
+PRIMARY KEY(id),
+title text NOT NULL,
+description text,
+status TINYINT DEFAULT '1',
+added_by DATETIME DEFAULT CURRENT_TIMESTAMP,
+updated_by DATETIME ON UPDATE CURRENT_TIMESTAMP
+)
+
+
+INSERT INTO category SET
+title = "Iphone",
+description = "smartphone",
+status = 0;
+INSERT INTO category SET
+title = "Nokia",
+description = "smartphone",
+status = 0;
+INSERT INTO category SET
+title = "LG",
+description = "smartphone",
+status = 0;
+INSERT INTO category SET
+title = "coc",
+description = "supercell ko coc",
+status = 0;
+INSERT INTO category SET
+title = "clash royal",
+description = "supercell ko clash royal",
+status = 0;
+INSERT INTO category SET
+title = "oracle",
+description = "oracle's database",
+status = 0;
+INSERT INTO category SET
+title = "GSM",
+description = "NTC KO sim",
+status = 0;
+INSERT INTO category SET
+title = "Nepatol",
+description = "Nepatol ko pipe",
+status = 0;
+INSERT INTO category SET
+title = "LG washer",
+description = "washing machine",
+status = 0;
